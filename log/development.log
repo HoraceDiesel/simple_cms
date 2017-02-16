@@ -1,0 +1,15 @@
+Started GET "/" for 127.0.0.1 at 2017-02-16 08:42:10 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/Diesel/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Diesel/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 129ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2017-02-16 08:42:19 +1100
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (0.5ms)
+Completed 200 OK in 15ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
